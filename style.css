@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Aug-2019, 9:49:50 PM
+    Author     : Swadesh Jana
+*/
+body{
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial;
+    font-size: 16px;
+}
+h1{
+    font-family: Times New Roman;
+    color: yellow;
+}
+h2,h4{
+    background-color: black;
+    color: yellow;
+    font: italic small-caps bolder 28px arial, sans-serif;
+}
+div{
+    border: None;
+    margin-top: 5px;
+    padding: 10px;
+}
+.left{
+    float: left;
+}    
+.right{
+    float: right;
+}
+.box{
+    margin: 0px 50px 0px 50px;
+    display: inline-block;
+    float:left;
+}
+.list_box{
+    width:100%;
+    overflow:hidden;
+}
+#img{
+    float:left;
+    margin-right: 50px;
+}
+#background-image{
+    background-image: url("img/bat_cover.jpg");
+    height:350px;
+    padding-top: 50px;
+    color: #fff;
+    margin-top: 50px;
+}
+#content{
+    background-color: rgba(0,0,0,0.5);
+    width:800px;
+    padding: 30px 30px;
+    margin-top: 50px;
+}
+.thumbnail {
+    display: inline-block;
+    height: auto;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    color: #666;
+    margin: auto;
+}
+table{
+    width: 1px;
+    border: 1px black;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border:1px solid #a4a4a4;
+    height: 30px;
+    padding:15px;
+}
+th{
+    text-align: left;
+    background-color: #ececec;
+}
+#nav{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    
+}
+ul li a {
+    display: block;
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+    //float: right;
+}
+.logo{
+    float:left;
+    height:50px;
+}
+#header{
+    padding: 5px 0px;
+    border-bottom: 1px solid;
+}
+input {
+    padding: 14px 70px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#subscribe {
+    border: none;
+    background-color: #26211f;
+    color: white;
+    font-size: 16px;
+    margin: 4px -4px;
+    padding: 16px 40px;
+}
